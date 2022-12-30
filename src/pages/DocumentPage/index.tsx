@@ -17,8 +17,8 @@ const DocumentPage = () => {
   console.log(pdfData);
   return (
     <div className="flex flex-row text-lg ">
-      <div className="flex min-w-[600px] flex-col">
-        <div className="min-h-full mx-8 space-y-2">
+      <div className="flex w-full flex-col">
+        <div className="min-h-[400px] mx-8 space-y-2">
           <h1 className=" border-b-2">labels</h1>
           <div className="flex flex-row space-x-4 ">
             <button className="bg-orange-400 px-2 py-1">Title</button>
